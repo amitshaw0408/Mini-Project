@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen rounded-lg">
+    <form action="/login" method="post" class="bg-white p-6 rounded shadow-md w-96">
+        <h1 class="text-3xl font-bold mb-6 text-center">Login</h1>
+        <input type="email" name="email" placeholder="Enter your email" required class="border border-gray-300 p-2 rounded w-full mb-4 outline-offset-1 outline-sky-500" />
+        <input type="password" name="password" placeholder="Enter Password" required class="border border-gray-300 p-2 rounded w-full mb-4 outline-offset-1 outline-sky-500">
+        <button type="submit" class="bg-blue-500 text-white w-full py-2 rounded hover:bg-blue-600 focus:bg-blue-300 mb-4">Submit</button>
+        <a href="/" class="text-sm text-blue-500 hover:underline text-right block">Create an account</a>
+    </form>
+</body>
+</html>

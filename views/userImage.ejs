@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="p-4">
+    <h1 class="text-3xl font-bold mb-6">Upload an Image</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" class="border border-gray-300 p-2 rounded">
+        <input type="submit" value="Upload" class="bg-blue-500 text-white px-4 py-2 rounded">
+    </form>
+</body>
+</html>
